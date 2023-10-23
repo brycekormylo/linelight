@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02139F1E2AE70FFF007C1BB7 /* MoreInfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02139F1D2AE70FFF007C1BB7 /* MoreInfoButton.swift */; };
+		027170642AE6DBD500DBC964 /* ImageSliderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027170632AE6DBD500DBC964 /* ImageSliderController.swift */; };
+		027170682AE6EB0800DBC964 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027170672AE6EB0800DBC964 /* ProfileView.swift */; };
+		0271706A2AE6FFBB00DBC964 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027170692AE6FFBB00DBC964 /* TabBarView.swift */; };
+		0271706C2AE6FFF100DBC964 /* ThemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0271706B2AE6FFF100DBC964 /* ThemeController.swift */; };
+		0271706E2AE702ED00DBC964 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0271706D2AE702ED00DBC964 /* NavigationBar.swift */; };
+		027170702AE703BE00DBC964 /* BannerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0271706F2AE703BE00DBC964 /* BannerImageView.swift */; };
+		02F102132AE1E20000A65AA1 /* FotofolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F102122AE1E20000A65AA1 /* FotofolioApp.swift */; };
+		02F102152AE1E20000A65AA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F102142AE1E20000A65AA1 /* ContentView.swift */; };
+		02F102172AE1E20100A65AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F102162AE1E20100A65AA1 /* Assets.xcassets */; };
+		02F1021A2AE1E20100A65AA1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F102192AE1E20100A65AA1 /* Preview Assets.xcassets */; };
+		02F102242AE1E20100A65AA1 /* FotofolioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F102232AE1E20100A65AA1 /* FotofolioTests.swift */; };
+		02F1022E2AE1E20100A65AA1 /* FotofolioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F1022D2AE1E20100A65AA1 /* FotofolioUITests.swift */; };
+		02F102302AE1E20100A65AA1 /* FotofolioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F1022F2AE1E20100A65AA1 /* FotofolioUITestsLaunchTests.swift */; };
+		02F102412AE1E79C00A65AA1 /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F102402AE1E79C00A65AA1 /* ImageSlider.swift */; };
+		02F102432AE1E7A100A65AA1 /* SlidingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F102422AE1E7A100A65AA1 /* SlidingImage.swift */; };
+		02F102452AE1EB1900A65AA1 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F102442AE1EB1900A65AA1 /* ProfileHeader.swift */; };
+		02F102472AE1F53400A65AA1 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F102462AE1F53400A65AA1 /* ProfileImage.swift */; };
+		02F102492AE1FDAD00A65AA1 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F102482AE1FDAD00A65AA1 /* ColorPickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02F102202AE1E20100A65AA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F102072AE1E20000A65AA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F1020E2AE1E20000A65AA1;
+			remoteInfo = Fotofolio;
+		};
+		02F1022A2AE1E20100A65AA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02F102072AE1E20000A65AA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F1020E2AE1E20000A65AA1;
+			remoteInfo = Fotofolio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02139F1D2AE70FFF007C1BB7 /* MoreInfoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoButton.swift; sourceTree = "<group>"; };
+		027170632AE6DBD500DBC964 /* ImageSliderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderController.swift; sourceTree = "<group>"; };
+		027170672AE6EB0800DBC964 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		027170692AE6FFBB00DBC964 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		0271706B2AE6FFF100DBC964 /* ThemeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeController.swift; sourceTree = "<group>"; };
+		0271706D2AE702ED00DBC964 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		0271706F2AE703BE00DBC964 /* BannerImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerImageView.swift; sourceTree = "<group>"; };
+		02F1020F2AE1E20000A65AA1 /* Fotofolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fotofolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F102122AE1E20000A65AA1 /* FotofolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotofolioApp.swift; sourceTree = "<group>"; };
+		02F102142AE1E20000A65AA1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02F102162AE1E20100A65AA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02F102192AE1E20100A65AA1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02F1021F2AE1E20100A65AA1 /* FotofolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotofolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F102232AE1E20100A65AA1 /* FotofolioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotofolioTests.swift; sourceTree = "<group>"; };
+		02F102292AE1E20100A65AA1 /* FotofolioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotofolioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F1022D2AE1E20100A65AA1 /* FotofolioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotofolioUITests.swift; sourceTree = "<group>"; };
+		02F1022F2AE1E20100A65AA1 /* FotofolioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotofolioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02F102402AE1E79C00A65AA1 /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
+		02F102422AE1E7A100A65AA1 /* SlidingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingImage.swift; sourceTree = "<group>"; };
+		02F102442AE1EB1900A65AA1 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
+		02F102462AE1F53400A65AA1 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
+		02F102482AE1FDAD00A65AA1 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F1020C2AE1E20000A65AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F1021C2AE1E20100A65AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F102262AE1E20100A65AA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F102062AE1E20000A65AA1 = {
+			isa = PBXGroup;
+			children = (
+				02F102112AE1E20000A65AA1 /* Fotofolio */,
+				02F102222AE1E20100A65AA1 /* FotofolioTests */,
+				02F1022C2AE1E20100A65AA1 /* FotofolioUITests */,
+				02F102102AE1E20000A65AA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02F102102AE1E20000A65AA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F1020F2AE1E20000A65AA1 /* Fotofolio.app */,
+				02F1021F2AE1E20100A65AA1 /* FotofolioTests.xctest */,
+				02F102292AE1E20100A65AA1 /* FotofolioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02F102112AE1E20000A65AA1 /* Fotofolio */ = {
+			isa = PBXGroup;
+			children = (
+				02F102122AE1E20000A65AA1 /* FotofolioApp.swift */,
+				02F102142AE1E20000A65AA1 /* ContentView.swift */,
+				0271706D2AE702ED00DBC964 /* NavigationBar.swift */,
+				02F102482AE1FDAD00A65AA1 /* ColorPickerView.swift */,
+				0271706F2AE703BE00DBC964 /* BannerImageView.swift */,
+				02139F1D2AE70FFF007C1BB7 /* MoreInfoButton.swift */,
+				027170672AE6EB0800DBC964 /* ProfileView.swift */,
+				02F102442AE1EB1900A65AA1 /* ProfileHeader.swift */,
+				02F102462AE1F53400A65AA1 /* ProfileImage.swift */,
+				02F102402AE1E79C00A65AA1 /* ImageSlider.swift */,
+				02F102422AE1E7A100A65AA1 /* SlidingImage.swift */,
+				027170632AE6DBD500DBC964 /* ImageSliderController.swift */,
+				027170692AE6FFBB00DBC964 /* TabBarView.swift */,
+				0271706B2AE6FFF100DBC964 /* ThemeController.swift */,
+				02F102162AE1E20100A65AA1 /* Assets.xcassets */,
+				02F102182AE1E20100A65AA1 /* Preview Content */,
+			);
+			path = Fotofolio;
+			sourceTree = "<group>";
+		};
+		02F102182AE1E20100A65AA1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02F102192AE1E20100A65AA1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02F102222AE1E20100A65AA1 /* FotofolioTests */ = {
+			isa = PBXGroup;
+			children = (
+				02F102232AE1E20100A65AA1 /* FotofolioTests.swift */,
+			);
+			path = FotofolioTests;
+			sourceTree = "<group>";
+		};
+		02F1022C2AE1E20100A65AA1 /* FotofolioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02F1022D2AE1E20100A65AA1 /* FotofolioUITests.swift */,
+				02F1022F2AE1E20100A65AA1 /* FotofolioUITestsLaunchTests.swift */,
+			);
+			path = FotofolioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02F1020E2AE1E20000A65AA1 /* Fotofolio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F102332AE1E20100A65AA1 /* Build configuration list for PBXNativeTarget "Fotofolio" */;
+			buildPhases = (
+				02F1020B2AE1E20000A65AA1 /* Sources */,
+				02F1020C2AE1E20000A65AA1 /* Frameworks */,
+				02F1020D2AE1E20000A65AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fotofolio;
+			productName = Fotofolio;
+			productReference = 02F1020F2AE1E20000A65AA1 /* Fotofolio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02F1021E2AE1E20100A65AA1 /* FotofolioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F102362AE1E20100A65AA1 /* Build configuration list for PBXNativeTarget "FotofolioTests" */;
+			buildPhases = (
+				02F1021B2AE1E20100A65AA1 /* Sources */,
+				02F1021C2AE1E20100A65AA1 /* Frameworks */,
+				02F1021D2AE1E20100A65AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F102212AE1E20100A65AA1 /* PBXTargetDependency */,
+			);
+			name = FotofolioTests;
+			productName = FotofolioTests;
+			productReference = 02F1021F2AE1E20100A65AA1 /* FotofolioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02F102282AE1E20100A65AA1 /* FotofolioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F102392AE1E20100A65AA1 /* Build configuration list for PBXNativeTarget "FotofolioUITests" */;
+			buildPhases = (
+				02F102252AE1E20100A65AA1 /* Sources */,
+				02F102262AE1E20100A65AA1 /* Frameworks */,
+				02F102272AE1E20100A65AA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02F1022B2AE1E20100A65AA1 /* PBXTargetDependency */,
+			);
+			name = FotofolioUITests;
+			productName = FotofolioUITests;
+			productReference = 02F102292AE1E20100A65AA1 /* FotofolioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02F102072AE1E20000A65AA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					02F1020E2AE1E20000A65AA1 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					02F1021E2AE1E20100A65AA1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 02F1020E2AE1E20000A65AA1;
+					};
+					02F102282AE1E20100A65AA1 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 02F1020E2AE1E20000A65AA1;
+					};
+				};
+			};
+			buildConfigurationList = 02F1020A2AE1E20000A65AA1 /* Build configuration list for PBXProject "Fotofolio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02F102062AE1E20000A65AA1;
+			productRefGroup = 02F102102AE1E20000A65AA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02F1020E2AE1E20000A65AA1 /* Fotofolio */,
+				02F1021E2AE1E20100A65AA1 /* FotofolioTests */,
+				02F102282AE1E20100A65AA1 /* FotofolioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02F1020D2AE1E20000A65AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F1021A2AE1E20100A65AA1 /* Preview Assets.xcassets in Resources */,
+				02F102172AE1E20100A65AA1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F1021D2AE1E20100A65AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F102272AE1E20100A65AA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02F1020B2AE1E20000A65AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027170642AE6DBD500DBC964 /* ImageSliderController.swift in Sources */,
+				0271706A2AE6FFBB00DBC964 /* TabBarView.swift in Sources */,
+				027170702AE703BE00DBC964 /* BannerImageView.swift in Sources */,
+				02F102152AE1E20000A65AA1 /* ContentView.swift in Sources */,
+				027170682AE6EB0800DBC964 /* ProfileView.swift in Sources */,
+				0271706E2AE702ED00DBC964 /* NavigationBar.swift in Sources */,
+				02F102472AE1F53400A65AA1 /* ProfileImage.swift in Sources */,
+				02F102492AE1FDAD00A65AA1 /* ColorPickerView.swift in Sources */,
+				02F102412AE1E79C00A65AA1 /* ImageSlider.swift in Sources */,
+				02F102452AE1EB1900A65AA1 /* ProfileHeader.swift in Sources */,
+				02139F1E2AE70FFF007C1BB7 /* MoreInfoButton.swift in Sources */,
+				02F102432AE1E7A100A65AA1 /* SlidingImage.swift in Sources */,
+				02F102132AE1E20000A65AA1 /* FotofolioApp.swift in Sources */,
+				0271706C2AE6FFF100DBC964 /* ThemeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F1021B2AE1E20100A65AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F102242AE1E20100A65AA1 /* FotofolioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02F102252AE1E20100A65AA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F102302AE1E20100A65AA1 /* FotofolioUITestsLaunchTests.swift in Sources */,
+				02F1022E2AE1E20100A65AA1 /* FotofolioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02F102212AE1E20100A65AA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F1020E2AE1E20000A65AA1 /* Fotofolio */;
+			targetProxy = 02F102202AE1E20100A65AA1 /* PBXContainerItemProxy */;
+		};
+		02F1022B2AE1E20100A65AA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F1020E2AE1E20000A65AA1 /* Fotofolio */;
+			targetProxy = 02F1022A2AE1E20100A65AA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02F102312AE1E20100A65AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02F102322AE1E20100A65AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02F102342AE1E20100A65AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fotofolio/Preview Content\"";
+				DEVELOPMENT_TEAM = 8K35U4GA26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brycekormylo.Fotofolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02F102352AE1E20100A65AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fotofolio/Preview Content\"";
+				DEVELOPMENT_TEAM = 8K35U4GA26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brycekormylo.Fotofolio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02F102372AE1E20100A65AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K35U4GA26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brycekormylo.FotofolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fotofolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fotofolio";
+			};
+			name = Debug;
+		};
+		02F102382AE1E20100A65AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K35U4GA26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brycekormylo.FotofolioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fotofolio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fotofolio";
+			};
+			name = Release;
+		};
+		02F1023A2AE1E20100A65AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K35U4GA26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brycekormylo.FotofolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fotofolio;
+			};
+			name = Debug;
+		};
+		02F1023B2AE1E20100A65AA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K35U4GA26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brycekormylo.FotofolioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fotofolio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F1020A2AE1E20000A65AA1 /* Build configuration list for PBXProject "Fotofolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F102312AE1E20100A65AA1 /* Debug */,
+				02F102322AE1E20100A65AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F102332AE1E20100A65AA1 /* Build configuration list for PBXNativeTarget "Fotofolio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F102342AE1E20100A65AA1 /* Debug */,
+				02F102352AE1E20100A65AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F102362AE1E20100A65AA1 /* Build configuration list for PBXNativeTarget "FotofolioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F102372AE1E20100A65AA1 /* Debug */,
+				02F102382AE1E20100A65AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F102392AE1E20100A65AA1 /* Build configuration list for PBXNativeTarget "FotofolioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F1023A2AE1E20100A65AA1 /* Debug */,
+				02F1023B2AE1E20100A65AA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02F102072AE1E20000A65AA1 /* Project object */;
+}
